@@ -1,0 +1,124 @@
+.bg2 {
+ 
+  color: white;
+  background-image: url("bb.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;   
+  background-size: cover;
+
+}
+
+
+
+
+body {
+  background-image: url("bg_trisha.jpg");
+  background-size: cover;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.button {
+  background-color: #3e8e41;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: left;
+  text-decoration: none;
+  display: inline-block;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #3e8e41;
+}
+
+form {
+  background-color: #f2f2f2;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  display: inline-block;
+}
+
+input[type="text"], input[type="email"], textarea {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  width: 75%;
+  margin-bottom: 20px;
+}
+
+input[type="submit"], input[type="reset"] {
+  background-color: #3e8e41;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  margin-top: 20px;
+}
+
+input[type="submit"]:hover, input[type="reset"]:hover {
+  background-color: #3e8e41;
+}
+
+.FB {
+background-color:#fff ;
+  border: none;
+  color: blue;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  margin-top: 20px;
+  transition: all 0.3s ease;
+  transition: transform .2s; 
+}
+
+   .FB:hover {
+   background-color: blue;
+   color: #e8e4c9;
+   transform: scale(1.5);
+
+
+}
+.back {
+background-color: black;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  margin-top: 20px;
+}
+
+
+.GH {
+background-color:#fff ;
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  margin-top: 20px;
+  transition: all 0.3s ease;
+  transition: transform .2s;
+}
+.GH:hover {
+  background-color: black;
+   color: #e8e4c9;
+   transform: scale(1.5);
+}
